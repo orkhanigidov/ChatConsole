@@ -17,9 +17,9 @@ public class Login {
 			br = new BufferedReader(fr);
 			in = new Scanner(System.in);
 
-			System.out.print("Username: ");
+			System.out.print("Your Username: ");
 			ob.setUsername(in.next());
-			System.out.print("Password: ");
+			System.out.print("Your Password: ");
 			ob.setPassword(in.next());
 
 			String find = ob.getUsername().concat("/").concat(ob.getPassword());
